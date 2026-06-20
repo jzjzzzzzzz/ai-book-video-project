@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-06-15T22:52:18.772269+08:00",
+  "project": "AI网文实验抖音宣传视频",
+  "fictional_names": [
+    "星澜市",
+    "青曜高中",
+    "林昼"
+  ],
+  "images": [
+    "assets/images/scene_01.png",
+    "assets/images/scene_02.png",
+    "assets/images/scene_03.png",
+    "assets/images/scene_04.png",
+    "assets/images/scene_05.png",
+    "assets/images/scene_06.png",
+    "assets/images/scene_07.png",
+    "assets/images/scene_08.png",
+    "assets/images/scene_09.png"
+  ],
+  "audio": [
+    "assets/audio/narration.wav",
+    "assets/audio/background.wav"
+  ],
+  "video": "dist/douyin_ai_webnovel_video.mp4",
+  "cover": "dist/cover.png",
+  "subtitles": "dist/subtitles.srt",
+  "script": "dist/script.txt",
+  "duration_seconds": 58.777,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "api": {
+    "openai_configured": false,
+    "openai_images_used": false,
+    "openai_tts_used": false
+  },
+  "fallback": {
+    "image_mode": "pillow",
+    "voice_mode": "edge-tts",
+    "events": []
+  },
+  "validation": {
+    "size_bytes": 9952265
+  }
+}

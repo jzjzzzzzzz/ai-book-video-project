@@ -1,0 +1,12 @@
+openai
+python-dotenv
+moviepy
+pillow
+numpy
+requests
+pydub
+edge-tts
+pyttsx3
+opencv-python
+imageio-ffmpeg
+
