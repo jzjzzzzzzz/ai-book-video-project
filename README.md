@@ -2,6 +2,14 @@
 
 生成 9:16、45-60 秒的中文配音宣传视频。云 API 不可用时，会自动使用 Pillow 分镜卡片、Windows 中文语音或 edge-tts，以及程序生成的低频氛围音。
 
+## 项目结构
+
+- `generate_video.py`: 主生成脚本。
+- `assets/images/`: 生成或缓存的分镜图片。
+- `assets/audio/`: 生成或缓存的旁白和背景音。
+- `dist/`: 最终视频、封面、字幕和脚本文稿输出目录。
+- `.env.example`: OpenAI 和生成开关的安全配置模板。
+
 ## 安装
 
 ```powershell
@@ -40,3 +48,8 @@ python generate_video.py
 - 视频：OpenCV 生成画面 + FFmpeg 封装；自动查找系统或 `imageio-ffmpeg` 的 FFmpeg
 - 音乐：始终可由 NumPy/WAV 标准库生成低频 drone 和滴答氛围音
 
+## 注意事项
+
+- `.env` 不能提交到 git。
+- `assets/temp/` 是临时工作目录，可以随时删除。
+- `dist/` 是生成结果目录；需要重新生成时直接再次运行脚本。

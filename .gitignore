@@ -14,3 +14,6 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+
+assets/temp/
+dist/
