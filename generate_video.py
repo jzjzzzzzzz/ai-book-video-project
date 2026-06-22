@@ -104,7 +104,7 @@ IMAGE_PROMPTS = [
     "fictional school corridor where a restroom door has become a seamless white wall, surprised students, nonviolent",
     "fictional futuristic city Xinglan under a red system countdown in the sky, cinematic",
     "fictional students awakening fire lightning summoning holograms and prediction screens, nonviolent",
-    "fictional Chinese male student Lin Zhou calmly looking at smartphone in blue school corridor",
+    "fictional Chinese male student Lin calmly looking at smartphone in blue school corridor",
     "classroom blackboard and an attendance book turning pages by itself, suspense, non-horror",
     "AI writing workstation showing novel outline chapter board and community comments, futuristic",
 ]
